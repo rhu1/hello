@@ -1,3 +1,6 @@
+//$ jar cvf dist/Hello.jar -C out .
+//$ java -cp dist/Hello.jar main.Hello
+
 package main;
 class Hello {
     public static void main(String[] args) {
